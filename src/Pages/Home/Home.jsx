@@ -81,7 +81,7 @@ const Home = () => {
         <>
             <Content>
                 <Info>
-                    <Infotitle>Платформа для добрых дел</Infotitle>
+                    <Infotitle>Платформа для добрых дел !</Infotitle>
                     <Infodescr>Вместе мы можем сделать наш Мир лучше. Каждое,совершенное доброе дело является лучиком света в нашем Мире</Infodescr>
                     <InfoBtns>
                         <Link to='/createpost'><InfoBtn>Создать пост</InfoBtn></Link>
