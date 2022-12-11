@@ -1,0 +1,109 @@
+.main-login {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+.login-contain {
+    height: 75vh;
+    width: 70%;
+    border-radius: 1rem;
+    margin: 5rem auto;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    color: gray;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    transform: translateY(-5px);
+    color: rgb(111, 169, 245);
+}
+
+
+.left-side,
+.right-side {
+    margin: 2rem 2rem;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57, 57);
+    height: 90%;
+    width: 100%;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.img-class {
+    height: 4.5rem;
+}
+
+#img-id {
+    height: 100%;
+    object-fit: cover;
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid gray;
+    height: 2rem;
+    width: 70%;
+    margin-bottom: 1.5rem;
+    padding: 0.2rem 1rem;
+    font-size: small;
+    color: gray;
+    transition: all 0.1s ease-in-out;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+input:hover {
+    outline: 0.5px solid gray;
+    box-shadow: 2px 2px 9px -2px gray
+}
+
+#sub_butt {
+    width: 80%;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease;
+}
+
+#sub_butt:hover {
+    box-shadow: 4px 3px 9px -1px gray;
+    transform: translateY(-5px);
+}
+
+
+h3 {
+    margin-left: 1rem;
+    color: black;
+    float: left;
+    margin-bottom: 2.5rem;
+}
+
+
+.welcomeImg {
+    height: 100%;
+    width: 70%;
+    margin: 0rem auto;
+}
+    #wel-img-id {
+        width: 100%;
+        object-fit: cover;
+    }

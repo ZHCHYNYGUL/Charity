@@ -1,0 +1,21 @@
+.donation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://lynchburgbusinessmag.com/wp-content/uploads/2019/05/lb-human-resources-main.jpg");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.donation-subtitle{
+    margin-bottom: 10px;
+}
